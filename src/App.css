@@ -5,6 +5,15 @@
   text-align: center;
 }
 
+.jeu {
+  height: 100%;
+  width: 100%;
+  display: flexbox;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
