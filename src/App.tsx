@@ -4,7 +4,7 @@ import Cartes from './components/cartes.component'
 
 function App() {
   // 20 coups max
-  const [nombreCoups, setNombreCoups] = useState(1);
+  const [nombreCoups, setNombreCoups] = useState(20);
   // Si la partie est en cours ou non
   const [partieEnCours, setPartieEnCours] = useState(true);
 
